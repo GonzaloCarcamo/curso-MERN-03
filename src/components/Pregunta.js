@@ -1,9 +1,11 @@
 import React, { Fragment, useState } from 'react';
+import Error from './Error';
 
 const Pregunta = () => {
 
     // Definir state
     const [ cantidad, guardarCantidad ] = useState(0);
+    const [ error, guardarError ] = useState(false);
 
     // Función que lee el presupuesto
     const definirPresupuesto = e => {
@@ -15,17 +17,22 @@ const Pregunta = () => {
         e.preventDefault();
 
         // Validar
-
+        if( cantidad < 1 || isNaN( cantidad ) ) {
+            guardarError(true);
+            return;
+        }
 
         // Si pasa la validación
+        guardarError(false);
 
-        
     }
 
     return ( 
 
         <Fragment>
             <h2>Coloca tu presupuesto</h2>
+
+            { error ? <Error mensaje='El presupuesto es incorrecto' /> : null }
 
             <form
                 onSubmit={agregarPresupuesto}
