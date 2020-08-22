@@ -1,3 +1,45 @@
+Proyecto 03 - Control de presupuesto - Curso React / Project 03 - Budget control
+
+### Partes del proyecto
+
+1.  Creando app y primeros ajustes
+2.  Preguntando al usuario por su presupuesto
+3.  Leyendo el presupuesto del usuario
+4.  Validar el presupuesto
+5.  Mostrando mensajes de error
+6.  Almacenando el presupuesto
+7.  Creando formularios de gastos
+8.  Cargando un componente y otro
+9.  Creando el STATE de gastos
+10. Validando gastos
+11. Crear un nuevo gasto
+12. Colocando los gastos en STATE de gastos
+13. Mostrando los gastos en interfaz
+14. Creando el componente que mostrará el presupuesto y el restante
+15. Restanto del presupuesto al añadir un gasto
+16. Cambiando el color del restante conforme se agota el presupuesto
+17. Documentando con proptypes
+-------------------------------------------------------------------
+### Project parts
+
+1. Creating app and first settings
+2. Asking the user for their budget
+3. Reading the user's budget
+4. Validate the budget
+5. Showing error messages
+6. Storing the budget
+7. Creating expense forms
+8. Loading one component and another
+9. Creating the STATE of expenses
+10. Validating expenses
+11. Create a new expense
+12. Placing expenses in STATE of expenses
+13. Showing expenses in interface
+14. Creating the component that will show the budget and the rest
+15. Remaining of the budget when adding an expense
+16. Changing the color of the remainder as the budget runs out
+17. Documenting with proptypes
+-----------------------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
